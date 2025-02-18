@@ -1,0 +1,81 @@
+{
+  "statistics": {
+    "session": "prompt_basic",
+    "duration": 6.034213066101074,
+    "total_energy_joules": 30.162254293084146,
+    "average_power_watts": 4.998539819969115,
+    "peak_power_watts": 6.705,
+    "peak_temperature_celsius": 0.0,
+    "peak_cpu_percent": 21.0,
+    "peak_memory_percent": 76.6,
+    "number_of_samples": 6
+  },
+  "snapshots": [
+    {
+      "timestamp": 1739781128.399263,
+      "cpu_percent": 14.4,
+      "memory_percent": 76.6,
+      "power_consumption": 6.0120000000000005,
+      "temperature": 0.0,
+      "disk_io": {
+        "read_bytes": 1146880,
+        "write_bytes": 135168
+      }
+    },
+    {
+      "timestamp": 1739781129.4101021,
+      "cpu_percent": 21.0,
+      "memory_percent": 76.6,
+      "power_consumption": 6.705,
+      "temperature": 0.0,
+      "disk_io": {
+        "read_bytes": 110592,
+        "write_bytes": 143360
+      }
+    },
+    {
+      "timestamp": 1739781130.4156108,
+      "cpu_percent": 13.1,
+      "memory_percent": 76.6,
+      "power_consumption": 5.875500000000001,
+      "temperature": 0.0,
+      "disk_io": {
+        "read_bytes": 0,
+        "write_bytes": 0
+      }
+    },
+    {
+      "timestamp": 1739781131.419749,
+      "cpu_percent": 12.0,
+      "memory_percent": 76.6,
+      "power_consumption": 5.76,
+      "temperature": 0.0,
+      "disk_io": {
+        "read_bytes": 0,
+        "write_bytes": 0
+      }
+    },
+    {
+      "timestamp": 1739781132.421727,
+      "cpu_percent": 12.6,
+      "memory_percent": 76.6,
+      "power_consumption": 5.823,
+      "temperature": 0.0,
+      "disk_io": {
+        "read_bytes": 40960,
+        "write_bytes": 20480
+      }
+    },
+    {
+      "timestamp": 1739781133.427799,
+      "cpu_percent": 12.6,
+      "memory_percent": 76.6,
+      "power_consumption": 5.823,
+      "temperature": 0.0,
+      "disk_io": {
+        "read_bytes": 0,
+        "write_bytes": 0
+      }
+    }
+  ]
+}

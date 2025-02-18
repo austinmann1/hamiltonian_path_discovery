@@ -1,0 +1,14 @@
+{
+  "description": "Creating benchmark dataset: large_benchmark",
+  "config": {
+    "num_satlib": 10,
+    "num_random": 10,
+    "random_sizes": [
+      10,
+      15,
+      20
+    ],
+    "verify": true
+  },
+  "timestamp": "2025-02-17T03:19:25.275876"
+}

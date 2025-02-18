@@ -1,0 +1,31 @@
+{
+  "template_name": "optimized",
+  "input_params": {
+    "num_nodes": 10,
+    "adjacency_matrix": "[0, 0, 1, 0, 1, 1, 0, 0, 1, 0]\n[1, 0, 0, 0, 1, 0, 1, 0, 0, 0]\n[1, 0, 0, 0, 0, 0, 1, 0, 0, 0]\n[1, 0, 1, 0, 1, 0, 0, 0, 0, 1]\n[0, 0, 0, 0, 0, 1, 0, 0, 0, 1]\n[0, 0, 1, 0, 0, 0, 1, 1, 0, 0]\n[0, 0, 0, 1, 0, 0, 0, 0, 1, 0]\n[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]\n[0, 1, 1, 0, 0, 0, 0, 0, 0, 0]\n[0, 0, 0, 0, 0, 1, 0, 0, 1, 0]",
+    "start_node": 0,
+    "end_node": 9,
+    "degree_analysis": "{'degrees': [4, 3, 2, 4, 2, 3, 2, 1, 2, 2], 'min_degree': 1, 'max_degree': 4, 'isolated_nodes': [], 'leaf_nodes': [7]}",
+    "properties": "{'is_directed': False, 'has_self_loops': False, 'density': 0.25, 'min_degree': 1, 'max_degree': 4}",
+    "previous_attempts": "[]"
+  },
+  "generated_code": "",
+  "verification_result": {
+    "is_valid": false,
+    "error": "invalid syntax (<string>, line 2)"
+  },
+  "energy_metrics": {
+    "session": "prompt_optimized",
+    "duration": 2.0090138912200928,
+    "total_energy_joules": 8.536329288482666,
+    "average_power_watts": 4.249014566692953,
+    "peak_power_watts": 8.931000000000001,
+    "peak_temperature_celsius": 0.0,
+    "peak_cpu_percent": 42.2,
+    "peak_memory_percent": 72.8,
+    "number_of_samples": 2
+  },
+  "execution_time": 2.002056837081909,
+  "success": false,
+  "error": "invalid syntax (<string>, line 2)"
+}

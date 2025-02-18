@@ -1,0 +1,29 @@
+{
+  "template_name": "basic",
+  "input_params": {
+    "num_nodes": 5,
+    "adjacency_matrix": "[[0, 0, 0, 0, 1], [1, 0, 1, 0, 0], [0, 1, 0, 1, 0], [0, 0, 1, 0, 1], [0, 1, 0, 0, 0]]",
+    "start_node": 0,
+    "end_node": 4,
+    "degree_analysis": "{'degrees': [1, 2, 2, 2, 1], 'min_degree': 1, 'max_degree': 2, 'isolated_nodes': [], 'leaf_nodes': [0, 4]}"
+  },
+  "generated_code": "",
+  "verification_result": {
+    "is_valid": false,
+    "error": "Input is not a valid edge list"
+  },
+  "energy_metrics": {
+    "session": "prompt_basic",
+    "duration": 103.46607494354248,
+    "total_energy_joules": 806.6602417266371,
+    "average_power_watts": 7.796374243120763,
+    "peak_power_watts": 10.401,
+    "peak_temperature_celsius": 0.0,
+    "peak_cpu_percent": 56.2,
+    "peak_memory_percent": 85.9,
+    "number_of_samples": 103
+  },
+  "execution_time": 102.62197709083557,
+  "success": false,
+  "error": "Input is not a valid edge list"
+}

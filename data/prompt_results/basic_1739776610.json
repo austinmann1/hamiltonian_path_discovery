@@ -1,0 +1,31 @@
+{
+  "template_name": "basic",
+  "input_params": {
+    "num_nodes": 5,
+    "adjacency_matrix": "[0, 1, 0, 0, 1]\n[0, 0, 1, 0, 0]\n[0, 0, 0, 1, 0]\n[0, 0, 1, 0, 1]\n[0, 0, 0, 0, 0]",
+    "start_node": 0,
+    "end_node": 4,
+    "degree_analysis": "{'degrees': [2, 1, 1, 2, 0], 'min_degree': 0, 'max_degree': 2, 'isolated_nodes': [4], 'leaf_nodes': [1, 2]}",
+    "properties": "{'is_directed': False, 'has_self_loops': False, 'density': 0.24, 'min_degree': 0, 'max_degree': 2}",
+    "previous_attempts": "[]"
+  },
+  "generated_code": "",
+  "verification_result": {
+    "is_valid": false,
+    "error": "invalid syntax (<string>, line 2)"
+  },
+  "energy_metrics": {
+    "session": "prompt_basic",
+    "duration": 3.005305051803589,
+    "total_energy_joules": 11.694495313525199,
+    "average_power_watts": 3.8912839501956458,
+    "peak_power_watts": 5.907,
+    "peak_temperature_celsius": 0.0,
+    "peak_cpu_percent": 13.4,
+    "peak_memory_percent": 71.7,
+    "number_of_samples": 3
+  },
+  "execution_time": 2.2947661876678467,
+  "success": false,
+  "error": "invalid syntax (<string>, line 2)"
+}

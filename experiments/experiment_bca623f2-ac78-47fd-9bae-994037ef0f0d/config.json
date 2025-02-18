@@ -1,0 +1,14 @@
+{
+  "description": "Prompt Execution: optimized",
+  "config": {
+    "template": "optimized",
+    "params": {
+      "num_nodes": 10,
+      "adjacency_matrix": "[[0, 0, 1, 0, 0, 0, 0, 0, 1, 0], [0, 0, 1, 0, 0, 0, 0, 1, 1, 1], [0, 0, 0, 1, 0, 1, 0, 0, 1, 1], [0, 0, 0, 0, 1, 0, 0, 1, 1, 1], [0, 1, 1, 0, 0, 1, 1, 0, 0, 1], [0, 0, 1, 1, 0, 0, 1, 1, 0, 0], [0, 1, 0, 1, 0, 0, 0, 0, 0, 1], [1, 0, 1, 0, 1, 0, 0, 0, 0, 1], [0, 1, 1, 0, 0, 1, 0, 1, 0, 1], [1, 0, 0, 1, 0, 0, 0, 0, 1, 0]]",
+      "start_node": 0,
+      "end_node": 9,
+      "degree_analysis": "{'degrees': [2, 4, 4, 4, 5, 4, 3, 4, 5, 3], 'min_degree': 2, 'max_degree': 5, 'isolated_nodes': [], 'leaf_nodes': []}"
+    }
+  },
+  "timestamp": "2025-02-17T03:38:08.438523"
+}

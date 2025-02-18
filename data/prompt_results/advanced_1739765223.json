@@ -1,0 +1,31 @@
+{
+  "template_name": "advanced",
+  "input_params": {
+    "num_nodes": 10,
+    "adjacency_matrix": "  [0, 0, 0, 1, 0, 1, 1, 0, 0, 0]\n  [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]\n  [1, 0, 0, 0, 1, 0, 1, 0, 0, 1]\n  [1, 0, 0, 0, 0, 1, 1, 0, 0, 1]\n  [0, 0, 0, 1, 0, 0, 0, 0, 1, 1]\n  [0, 1, 1, 0, 0, 0, 0, 0, 0, 0]\n  [0, 0, 1, 0, 0, 0, 0, 0, 1, 1]\n  [0, 1, 0, 0, 0, 1, 1, 0, 0, 0]\n  [0, 0, 0, 0, 0, 1, 1, 1, 0, 1]\n  [0, 0, 0, 1, 1, 0, 0, 0, 1, 0]",
+    "start_node": 0,
+    "end_node": 9,
+    "degree_analysis": "{'degrees': [3, 1, 4, 4, 3, 2, 3, 3, 4, 3], 'min_degree': 1, 'max_degree': 4, 'isolated_nodes': [], 'leaf_nodes': [1]}",
+    "properties": "{'is_directed': False, 'has_self_loops': False, 'density': 0.3, 'min_degree': 1, 'max_degree': 4}",
+    "previous_attempts": "[]"
+  },
+  "generated_code": "",
+  "verification_result": {
+    "is_valid": false,
+    "error": "unexpected indent (<string>, line 2)"
+  },
+  "energy_metrics": {
+    "session": "prompt_advanced",
+    "duration": 3.006618022918701,
+    "total_energy_joules": 15.657091775536538,
+    "average_power_watts": 5.207542712837621,
+    "peak_power_watts": 8.0385,
+    "peak_temperature_celsius": 0.0,
+    "peak_cpu_percent": 33.7,
+    "peak_memory_percent": 77.9,
+    "number_of_samples": 3
+  },
+  "execution_time": 2.005885362625122,
+  "success": false,
+  "error": "unexpected indent (<string>, line 2)"
+}

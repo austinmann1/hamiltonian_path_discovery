@@ -1,0 +1,59 @@
+{
+  "basic": {
+    "name": "basic",
+    "template": "Given a graph with {num_nodes} nodes represented by its adjacency matrix:\n{adjacency_matrix}\n\nFind a Hamiltonian path in this graph. A Hamiltonian path visits each node exactly once.\nReturn the path as a list of node indices, where each consecutive pair of nodes must have\nan edge between them in the graph.\n\nRequirements:\n1. The path must start at node {start_node} and end at node {end_node}\n2. Each node must be visited exactly once\n3. There must be an edge between consecutive nodes in the path\n4. The path must be valid according to the adjacency matrix\n\nExample format:\n[0, 2, 1, 3]  # This means: 0 -> 2 -> 1 -> 3",
+    "description": "Basic prompt for finding Hamiltonian paths",
+    "parameters": {
+      "num_nodes": "Number of nodes in the graph",
+      "adjacency_matrix": "Adjacency matrix as a string",
+      "start_node": "Starting node index",
+      "end_node": "Ending node index"
+    },
+    "examples": [],
+    "metrics": {
+      "success_rate": 0.0,
+      "average_time": 3.4631412278723888,
+      "average_energy": 19.943772821505302
+    },
+    "version": 108
+  },
+  "advanced": {
+    "name": "advanced",
+    "template": "You are tasked with finding a Hamiltonian path in a graph with {num_nodes} nodes.\n\nGraph Structure:\n- Adjacency Matrix:\n{adjacency_matrix}\n- Start Node: {start_node}\n- End Node: {end_node}\n- Known Properties: {properties}\n\nA Hamiltonian path must:\n1. Start at the specified start node\n2. End at the specified end node\n3. Visit each node exactly once\n4. Only use edges that exist in the graph (1's in the adjacency matrix)\n\nPrevious attempts: {previous_attempts}\n\nStrategy hints:\n1. Check degree constraints\n2. Look for forced moves\n3. Consider backtracking at decision points\n4. Verify edge existence at each step\n\nReturn ONLY the path as a list of integers, e.g.: [0, 2, 1, 3]",
+    "description": "Advanced prompt with graph properties and strategy hints",
+    "parameters": {
+      "num_nodes": "Number of nodes in the graph",
+      "adjacency_matrix": "Adjacency matrix as a string",
+      "start_node": "Starting node index",
+      "end_node": "Ending node index",
+      "properties": "Known graph properties",
+      "previous_attempts": "Previous failed attempts"
+    },
+    "examples": [],
+    "metrics": {
+      "success_rate": 0.0,
+      "average_time": 3.2011412572458235,
+      "average_energy": 17.762677240214337
+    },
+    "version": 103
+  },
+  "optimized": {
+    "name": "optimized",
+    "template": "You are an expert in graph theory tasked with finding a Hamiltonian path.\n\nGraph Analysis:\n- Nodes: {num_nodes}\n- Matrix: {adjacency_matrix}\n- Start: {start_node}\n- End: {end_node}\n- Degree Analysis: {degree_analysis}\n\nKey Constraints:\n1. Path MUST start at node {start_node}\n2. Path MUST end at node {end_node}\n3. Each node MUST be visited exactly once\n4. Only use edges where adjacency_matrix[i][j] = 1\n\nStrategy:\n1. First, verify the path is possible:\n   - Check if start/end nodes have sufficient degree\n   - Ensure no node has degree < 2 (except possibly start/end)\n   \n2. Build the path:\n   - Start at the required start node\n   - At each step, choose the neighbor with fewest remaining options\n   - Backtrack if no valid neighbors exist\n   - Continue until reaching end node with all nodes visited\n\nReturn ONLY the path as a list, e.g.: [0, 2, 1, 3]",
+    "description": "Optimized prompt with degree analysis and strategic guidance",
+    "parameters": {
+      "num_nodes": "Number of nodes in the graph",
+      "adjacency_matrix": "Adjacency matrix as a string",
+      "start_node": "Starting node index",
+      "end_node": "Ending node index",
+      "degree_analysis": "Analysis of node degrees"
+    },
+    "examples": [],
+    "metrics": {
+      "success_rate": 0.0,
+      "average_time": 3.424794163329948,
+      "average_energy": 19.811216077645618
+    },
+    "version": 104
+  }
+}

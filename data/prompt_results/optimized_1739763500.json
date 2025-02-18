@@ -1,0 +1,29 @@
+{
+  "template_name": "optimized",
+  "input_params": {
+    "num_nodes": 10,
+    "adjacency_matrix": "[[0, 0, 1, 0, 0, 0, 0, 0, 1, 0], [0, 0, 1, 0, 0, 0, 0, 1, 1, 1], [0, 0, 0, 1, 0, 1, 0, 0, 1, 1], [0, 0, 0, 0, 1, 0, 0, 1, 1, 1], [0, 1, 1, 0, 0, 1, 1, 0, 0, 1], [0, 0, 1, 1, 0, 0, 1, 1, 0, 0], [0, 1, 0, 1, 0, 0, 0, 0, 0, 1], [1, 0, 1, 0, 1, 0, 0, 0, 0, 1], [0, 1, 1, 0, 0, 1, 0, 1, 0, 1], [1, 0, 0, 1, 0, 0, 0, 0, 1, 0]]",
+    "start_node": 0,
+    "end_node": 9,
+    "degree_analysis": "{'degrees': [2, 4, 4, 4, 5, 4, 3, 4, 5, 3], 'min_degree': 2, 'max_degree': 5, 'isolated_nodes': [], 'leaf_nodes': []}"
+  },
+  "generated_code": "",
+  "verification_result": {
+    "is_valid": false,
+    "error": "Input is not a valid edge list"
+  },
+  "energy_metrics": {
+    "session": "prompt_advanced",
+    "duration": 12.0468111038208,
+    "total_energy_joules": 82.70598054885865,
+    "average_power_watts": 6.865383696655407,
+    "peak_power_watts": 8.154,
+    "peak_temperature_celsius": 0.0,
+    "peak_cpu_percent": 34.8,
+    "peak_memory_percent": 77.2,
+    "number_of_samples": 12
+  },
+  "execution_time": 12.00414776802063,
+  "success": false,
+  "error": "Input is not a valid edge list"
+}

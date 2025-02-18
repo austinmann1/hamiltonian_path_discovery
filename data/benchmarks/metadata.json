@@ -1,0 +1,136 @@
+{
+  "datasets": {
+    "small_benchmark": {
+      "name": "small_benchmark",
+      "instances": [
+        {
+          "id": 0,
+          "path": "examples/../data/benchmarks/small_benchmark/instance_0.npz",
+          "size": 5,
+          "source": "random",
+          "verified": true
+        },
+        {
+          "id": 1,
+          "path": "examples/../data/benchmarks/small_benchmark/instance_1.npz",
+          "size": 5,
+          "source": "random",
+          "verified": true
+        },
+        {
+          "id": 2,
+          "path": "examples/../data/benchmarks/small_benchmark/instance_2.npz",
+          "size": 8,
+          "source": "random",
+          "verified": true
+        },
+        {
+          "id": 3,
+          "path": "examples/../data/benchmarks/small_benchmark/instance_3.npz",
+          "size": 8,
+          "source": "random",
+          "verified": true
+        }
+      ],
+      "statistics": {
+        "total_instances": 4,
+        "verified_instances": 4,
+        "average_size": 6.5,
+        "size_distribution": {
+          "8": 2,
+          "5": 2
+        }
+      }
+    },
+    "large_benchmark": {
+      "name": "large_benchmark",
+      "instances": [
+        {
+          "id": 0,
+          "path": "examples/../data/benchmarks/large_benchmark/instance_0.npz",
+          "size": 10,
+          "source": "random",
+          "verified": true
+        },
+        {
+          "id": 1,
+          "path": "examples/../data/benchmarks/large_benchmark/instance_1.npz",
+          "size": 10,
+          "source": "random",
+          "verified": true
+        },
+        {
+          "id": 2,
+          "path": "examples/../data/benchmarks/large_benchmark/instance_2.npz",
+          "size": 10,
+          "source": "random",
+          "verified": true
+        },
+        {
+          "id": 3,
+          "path": "examples/../data/benchmarks/large_benchmark/instance_3.npz",
+          "size": 15,
+          "source": "random",
+          "verified": true
+        },
+        {
+          "id": 4,
+          "path": "examples/../data/benchmarks/large_benchmark/instance_4.npz",
+          "size": 15,
+          "source": "random",
+          "verified": true
+        },
+        {
+          "id": 5,
+          "path": "examples/../data/benchmarks/large_benchmark/instance_5.npz",
+          "size": 15,
+          "source": "random",
+          "verified": true
+        },
+        {
+          "id": 6,
+          "path": "examples/../data/benchmarks/large_benchmark/instance_6.npz",
+          "size": 20,
+          "source": "random",
+          "verified": true
+        },
+        {
+          "id": 7,
+          "path": "examples/../data/benchmarks/large_benchmark/instance_7.npz",
+          "size": 20,
+          "source": "random",
+          "verified": true
+        },
+        {
+          "id": 8,
+          "path": "examples/../data/benchmarks/large_benchmark/instance_8.npz",
+          "size": 20,
+          "source": "random",
+          "verified": true
+        }
+      ],
+      "statistics": {
+        "total_instances": 9,
+        "verified_instances": 9,
+        "average_size": 15.0,
+        "size_distribution": {
+          "10": 3,
+          "20": 3,
+          "15": 3
+        }
+      }
+    }
+  },
+  "statistics": {
+    "total_instances": 13,
+    "verified_instances": 13,
+    "average_size": 12.384615384615385,
+    "size_distribution": {
+      "8": 2,
+      "5": 2,
+      "10": 3,
+      "20": 3,
+      "15": 3
+    }
+  }
+}

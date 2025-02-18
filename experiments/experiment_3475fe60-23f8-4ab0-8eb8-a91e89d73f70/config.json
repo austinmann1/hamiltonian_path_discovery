@@ -1,0 +1,16 @@
+{
+  "description": "Prompt Execution: advanced",
+  "config": {
+    "template": "advanced",
+    "params": {
+      "num_nodes": 10,
+      "adjacency_matrix": "[0, 1, 1, 1, 1, 1, 0, 0, 0, 0]\n[0, 0, 0, 1, 1, 0, 0, 1, 1, 0]\n[1, 1, 0, 0, 0, 1, 0, 1, 1, 0]\n[0, 0, 0, 0, 0, 1, 0, 0, 0, 0]\n[0, 1, 0, 1, 0, 1, 0, 1, 0, 0]\n[0, 0, 0, 0, 0, 0, 1, 0, 1, 0]\n[0, 0, 1, 0, 0, 1, 0, 1, 0, 1]\n[0, 1, 1, 0, 1, 0, 0, 0, 0, 0]\n[0, 0, 0, 0, 1, 0, 1, 1, 0, 0]\n[0, 0, 0, 0, 1, 1, 0, 1, 1, 0]",
+      "start_node": 0,
+      "end_node": 9,
+      "degree_analysis": "{'degrees': [5, 4, 5, 1, 4, 2, 4, 3, 3, 4], 'min_degree': 1, 'max_degree': 5, 'isolated_nodes': [], 'leaf_nodes': [3]}",
+      "properties": "{'is_directed': False, 'has_self_loops': False, 'density': 0.35, 'min_degree': 1, 'max_degree': 5}",
+      "previous_attempts": "[]"
+    }
+  },
+  "timestamp": "2025-02-17T07:06:10.314876"
+}

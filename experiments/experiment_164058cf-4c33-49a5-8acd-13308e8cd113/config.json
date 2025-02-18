@@ -1,0 +1,13 @@
+{
+  "description": "Creating benchmark dataset: small_benchmark",
+  "config": {
+    "num_satlib": 5,
+    "num_random": 5,
+    "random_sizes": [
+      5,
+      8
+    ],
+    "verify": true
+  },
+  "timestamp": "2025-02-17T03:19:24.826111"
+}

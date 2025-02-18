@@ -1,0 +1,9 @@
+{
+  "description": "Path Verification",
+  "config": {
+    "size": 10,
+    "timeout_ms": 5000,
+    "path_provided": false
+  },
+  "timestamp": "2025-02-17T03:19:25.277656"
+}

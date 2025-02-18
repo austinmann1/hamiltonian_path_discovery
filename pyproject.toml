@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hamiltonian_path_discovery"
+version = "0.1.0"
+authors = [
+  { name="Austin Mann" },
+]
+description = "A system for discovering Hamiltonian paths using LLMs and conflict learning"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "networkx",
+    "z3-solver",
+    "python-dotenv",
+    "httpx",
+    "tenacity",
+    "requests"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hamiltonian_path_discovery"]

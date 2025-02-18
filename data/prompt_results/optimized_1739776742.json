@@ -1,0 +1,31 @@
+{
+  "template_name": "optimized",
+  "input_params": {
+    "num_nodes": 7,
+    "adjacency_matrix": "[0, 0, 0, 0, 0, 1, 1]\n[0, 0, 1, 0, 1, 0, 1]\n[0, 1, 0, 1, 1, 0, 0]\n[1, 1, 1, 0, 0, 0, 0]\n[0, 0, 0, 1, 0, 0, 1]\n[0, 0, 0, 1, 1, 0, 0]\n[0, 0, 0, 1, 0, 0, 0]",
+    "start_node": 0,
+    "end_node": 6,
+    "degree_analysis": "{'degrees': [2, 3, 3, 3, 2, 2, 1], 'min_degree': 1, 'max_degree': 3, 'isolated_nodes': [], 'leaf_nodes': [6]}",
+    "properties": "{'is_directed': False, 'has_self_loops': False, 'density': 0.32653061224489793, 'min_degree': 1, 'max_degree': 3}",
+    "previous_attempts": "[]"
+  },
+  "generated_code": "[]",
+  "verification_result": {
+    "is_valid": false,
+    "error": "invalid literal for int() with base 10: '0,'"
+  },
+  "energy_metrics": {
+    "session": "prompt_optimized",
+    "duration": 2.011168956756592,
+    "total_energy_joules": 6.424884982109069,
+    "average_power_watts": 3.1946023035630327,
+    "peak_power_watts": 6.39,
+    "peak_temperature_celsius": 0.0,
+    "peak_cpu_percent": 18.0,
+    "peak_memory_percent": 71.7,
+    "number_of_samples": 2
+  },
+  "execution_time": 1.9848988056182861,
+  "success": false,
+  "error": "invalid literal for int() with base 10: '0,'"
+}

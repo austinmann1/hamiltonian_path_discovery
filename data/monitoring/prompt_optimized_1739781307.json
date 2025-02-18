@@ -1,0 +1,37 @@
+{
+  "statistics": {
+    "session": "prompt_optimized",
+    "duration": 2.0080580711364746,
+    "total_energy_joules": 6.087041994094849,
+    "average_power_watts": 3.0313077503031796,
+    "peak_power_watts": 6.054,
+    "peak_temperature_celsius": 0.0,
+    "peak_cpu_percent": 14.8,
+    "peak_memory_percent": 76.6,
+    "number_of_samples": 2
+  },
+  "snapshots": [
+    {
+      "timestamp": 1739781307.170808,
+      "cpu_percent": 12.7,
+      "memory_percent": 76.5,
+      "power_consumption": 5.8335,
+      "temperature": 0.0,
+      "disk_io": {
+        "read_bytes": 65536,
+        "write_bytes": 393216
+      }
+    },
+    {
+      "timestamp": 1739781308.176266,
+      "cpu_percent": 14.8,
+      "memory_percent": 76.6,
+      "power_consumption": 6.054,
+      "temperature": 0.0,
+      "disk_io": {
+        "read_bytes": 204800,
+        "write_bytes": 311296
+      }
+    }
+  ]
+}

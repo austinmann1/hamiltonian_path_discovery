@@ -1,0 +1,31 @@
+{
+  "template_name": "basic",
+  "input_params": {
+    "num_nodes": 10,
+    "adjacency_matrix": "[[0, 0, 1, 0, 0, 0, 1, 1, 0, 1], [0, 0, 0, 1, 1, 0, 0, 1, 0, 0], [1, 0, 0, 0, 0, 1, 0, 1, 1, 1], [0, 1, 1, 0, 0, 0, 1, 1, 1, 1], [0, 1, 0, 0, 0, 1, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 1, 1, 1, 1], [0, 0, 1, 0, 0, 0, 0, 0, 1, 0], [0, 1, 0, 0, 0, 0, 0, 0, 1, 0], [0, 0, 0, 1, 0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]]",
+    "start_node": 0,
+    "end_node": 9,
+    "degree_analysis": "{'degrees': [4, 3, 5, 6, 2, 4, 2, 2, 2, 1], 'min_degree': 1, 'max_degree': 6, 'isolated_nodes': [], 'leaf_nodes': [9]}",
+    "properties": "{'is_directed': False, 'has_self_loops': False, 'density': 0.31, 'min_degree': 1, 'max_degree': 6}",
+    "previous_attempts": "[]"
+  },
+  "generated_code": "",
+  "verification_result": {
+    "is_valid": false,
+    "error": "Input is not a valid edge list"
+  },
+  "energy_metrics": {
+    "session": "prompt_basic",
+    "duration": 12.048753023147583,
+    "total_energy_joules": 84.23095165336133,
+    "average_power_watts": 6.990843906547025,
+    "peak_power_watts": 8.500499999999999,
+    "peak_temperature_celsius": 0.0,
+    "peak_cpu_percent": 38.1,
+    "peak_memory_percent": 78.5,
+    "number_of_samples": 12
+  },
+  "execution_time": 12.006123065948486,
+  "success": false,
+  "error": "Input is not a valid edge list"
+}

@@ -1,0 +1,13 @@
+{
+  "experiment_id": "8022a4d2-cb2c-4cff-9037-83fca7d7de2a",
+  "total_iterations": 0,
+  "metrics": {
+    "path_validity_rate": 0.0,
+    "complexity_ratio": 1.0,
+    "energy_per_path": Infinity,
+    "hallucination_rate": 0.0
+  },
+  "targets_met": false,
+  "total_time": 0,
+  "total_energy": 0
+}

@@ -1,0 +1,11 @@
+{
+  "description": "Benchmark Creation",
+  "config": {
+    "num_random": 2,
+    "num_satlib": 1,
+    "random_sizes": [
+      3
+    ]
+  },
+  "timestamp": "2025-02-17T02:56:06.379925"
+}

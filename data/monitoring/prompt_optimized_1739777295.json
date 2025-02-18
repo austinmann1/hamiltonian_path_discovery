@@ -1,0 +1,92 @@
+{
+  "statistics": {
+    "session": "prompt_optimized",
+    "duration": 7.035401105880737,
+    "total_energy_joules": 36.408597773194316,
+    "average_power_watts": 5.175056436051836,
+    "peak_power_watts": 6.516,
+    "peak_temperature_celsius": 0.0,
+    "peak_cpu_percent": 19.2,
+    "peak_memory_percent": 73.6,
+    "number_of_samples": 7
+  },
+  "snapshots": [
+    {
+      "timestamp": 1739777295.676188,
+      "cpu_percent": 19.2,
+      "memory_percent": 73.6,
+      "power_consumption": 6.516,
+      "temperature": 0.0,
+      "disk_io": {
+        "read_bytes": 45056,
+        "write_bytes": 90112
+      }
+    },
+    {
+      "timestamp": 1739777296.678785,
+      "cpu_percent": 17.9,
+      "memory_percent": 73.5,
+      "power_consumption": 6.3795,
+      "temperature": 0.0,
+      "disk_io": {
+        "read_bytes": 16384,
+        "write_bytes": 32768
+      }
+    },
+    {
+      "timestamp": 1739777297.6902559,
+      "cpu_percent": 14.3,
+      "memory_percent": 73.4,
+      "power_consumption": 6.0015,
+      "temperature": 0.0,
+      "disk_io": {
+        "read_bytes": 12288,
+        "write_bytes": 4096
+      }
+    },
+    {
+      "timestamp": 1739777298.696248,
+      "cpu_percent": 12.5,
+      "memory_percent": 73.3,
+      "power_consumption": 5.8125,
+      "temperature": 0.0,
+      "disk_io": {
+        "read_bytes": 28672,
+        "write_bytes": 929792
+      }
+    },
+    {
+      "timestamp": 1739777299.6982741,
+      "cpu_percent": 12.0,
+      "memory_percent": 73.2,
+      "power_consumption": 5.76,
+      "temperature": 0.0,
+      "disk_io": {
+        "read_bytes": 0,
+        "write_bytes": 0
+      }
+    },
+    {
+      "timestamp": 1739777300.7001321,
+      "cpu_percent": 16.3,
+      "memory_percent": 73.5,
+      "power_consumption": 6.2115,
+      "temperature": 0.0,
+      "disk_io": {
+        "read_bytes": 307200,
+        "write_bytes": 0
+      }
+    },
+    {
+      "timestamp": 1739777301.70601,
+      "cpu_percent": 14.9,
+      "memory_percent": 73.5,
+      "power_consumption": 6.0645,
+      "temperature": 0.0,
+      "disk_io": {
+        "read_bytes": 86016,
+        "write_bytes": 0
+      }
+    }
+  ]
+}
